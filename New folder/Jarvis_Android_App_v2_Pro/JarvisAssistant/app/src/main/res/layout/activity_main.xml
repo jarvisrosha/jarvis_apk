@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#080D1A"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="JARVIS PRO (INVISIBLE MODE)"
+            android:textColor="#00F5D4"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="6dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="मल्टी-लँग्वेज • स्क्रीन लॉक वेकवर्ड • १००% अदृश्य बॅकग्राऊंड"
+            android:textColor="#A9DEF9"
+            android:textSize="13sp"
+            android:gravity="center"
+            android:layout_marginBottom="20dp" />
+
+        <EditText
+            android:id="@+id/etApiKey"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="येथे तुमची Gemini API Key टाका"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#888888"
+            android:background="#16213E"
+            android:padding="14dp"
+            android:layout_marginBottom="12dp" />
+
+        <Button
+            android:id="@+id/btnSaveKey"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="१. API Key सेव्ह करा"
+            android:backgroundTint="#1F4068"
+            android:layout_marginBottom="12dp" />
+
+        <Button
+            android:id="@+id/btnBattery"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="२. स्क्रीन लॉक असताना चालू राहण्यासाठी (Battery Unrestricted करा)"
+            android:backgroundTint="#2C3E50"
+            android:layout_marginBottom="12dp" />
+
+        <Button
+            android:id="@+id/btnAccessibility"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="३. Accessibility ऑन करा (स्क्रोल/क्लिकसाठी)"
+            android:backgroundTint="#1B4332"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/btnStartInvisible"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="४. JARVIS अदृश्य मोडमध्ये सुरू करा (Start &amp; Hide)"
+            android:backgroundTint="#00F5D4"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:layout_marginBottom="12dp" />
+
+        <Button
+            android:id="@+id/btnStopJarvis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="JARVIS पूर्णपणे बंद करा (Stop)"
+            android:backgroundTint="#E63946"
+            android:layout_marginBottom="18dp" />
+
+        <TextView
+            android:id="@+id/tvStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="नियम:
+• स्क्रोल, क्लिक, व्हॉल्यूम, अ‍ॅप उघडणे = थेट आवाजावर होईल.
+• फोन लावणे, मेसेज पाठवणे, पैसे पाठवणे, एडिट करणे = आधी तुमची परवानगी घेईल!"
+            android:textColor="#E0FBFC"
+            android:background="#16213E"
+            android:padding="16dp"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+</ScrollView>
